@@ -2,3 +2,5 @@ __pycache__/
 *.pyc
 *.joblib
 .ipynb_checkpoints/
+streamlit_bg.log
+streamlit_start.log

@@ -40,6 +40,14 @@ This project demonstrates a simple machine learning pipeline to predict whether 
 python student_performance_prediction/predict_student_performance.py
 ```
 
+## Streamlit UI
+
+Run the Streamlit app with:
+
+```bash
+streamlit run student_performance_prediction/streamlit_app.py
+```
+
 ## Dataset
 
 The project includes a real dataset at `student_performance_prediction/data/student_performance.csv`. The script will also regenerate the dataset automatically if the file is missing.
