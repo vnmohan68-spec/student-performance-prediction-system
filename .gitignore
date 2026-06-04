@@ -1,0 +1,10 @@
+# Root ignore file for temporary and environment files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+streamlit_bg.log
+streamlit_start.log
+.env
+.DS_Store
