@@ -40,15 +40,30 @@ This project demonstrates a simple machine learning pipeline to predict whether 
 python student_performance_prediction/predict_student_performance.py
 ```
 
-## GitHub workflow
+## Dataset
+
+The project includes a real dataset at `student_performance_prediction/data/student_performance.csv`. The script will also regenerate the dataset automatically if the file is missing.
+
+## GitHub repository
+
+This project is pushed to GitHub:
+
+https://github.com/vnmohan68-spec/student-performance-prediction-system
+
+## CI workflow
+
+A GitHub Actions workflow is configured at `.github/workflows/python-app.yml` to install dependencies and run the script on pushes and pull requests to `main`.
+
+## Collaboration
+
+Use branches for new features and create pull requests for review. Example:
 
 ```bash
-git init
+git checkout -b feature/add-model-explanation
+# make changes
 git add .
-git commit -m "Initial student performance prediction project"
-git branch -M main
-git remote add origin https://github.com/<your-username>/<repo-name>.git
-git push -u origin main
+git commit -m "Add model explanation"
+git push origin feature/add-model-explanation
 ```
 
-Then collaborate by creating feature branches, opening pull requests, and reviewing changes on GitHub.
+Then open a pull request on GitHub.
